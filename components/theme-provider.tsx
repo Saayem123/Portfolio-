@@ -7,4 +7,3 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
 }
 
 export { useTheme } from "next-themes"
-

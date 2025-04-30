@@ -51,7 +51,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/95 shadow-md backdrop-blur-sm" : "bg-background/80 backdrop-blur-sm"
+        scrolled ? "bg-background/95 shadow-md backdrop-blur-sm" : "bg-transparent"
       }`}
     >
       <div className="container flex items-center justify-between h-16 px-4">
@@ -78,6 +78,9 @@ export default function Header() {
           </motion.a>
           <motion.a variants={itemVariants} href="#projects" className="nav-link">
             Projects
+          </motion.a>
+          <motion.a variants={itemVariants} href="#certifications" className="nav-link">
+            Certifications
           </motion.a>
           <motion.a variants={itemVariants} href="#contact" className="nav-link">
             Contact
@@ -114,4 +117,3 @@ export default function Header() {
     </header>
   )
 }
-

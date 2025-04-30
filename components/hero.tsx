@@ -19,7 +19,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-background to-background/80 pt-16">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-transparent pt-16">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       </div>
@@ -131,4 +131,3 @@ export default function Hero() {
     </section>
   )
 }
-

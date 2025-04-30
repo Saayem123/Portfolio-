@@ -10,6 +10,15 @@ import Image from "next/image"
 export default function Projects() {
   const projects = [
     {
+      title: "Personal Portfolio Website",
+      description: "A modern, responsive portfolio website with dark mode, animations, and interactive UI components.",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-05%20192702-tt9hGiL5NhR2Qq6elNPQuFKg5hSX1J.png",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+      github: "https://github.com/Saayem123",
+      demo: "https://portfolio-orpin-nu-53.vercel.app",
+    },
+    {
       title: "Notes Making Application",
       description: "A full-featured notes application with rich text editing, categories, and search functionality.",
       image: "/placeholder.svg?height=400&width=600",
@@ -77,7 +86,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-gradient-to-b from-blue-50 to-white dark:from-blue-950/10 dark:to-background"
+      className="py-20 bg-gradient-to-b from-slate-100/50 to-transparent dark:from-slate-900/30 dark:to-transparent"
     >
       <div className="container px-4 md:px-6">
         <motion.div
@@ -162,4 +171,3 @@ export default function Projects() {
     </section>
   )
 }
-

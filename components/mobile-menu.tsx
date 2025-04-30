@@ -63,7 +63,7 @@ export default function MobileMenu() {
                 </motion.div>
               </div>
               <nav className="flex flex-col p-8 space-y-8 text-center">
-                {["Home", "About", "Projects", "Contact"].map((item, i) => (
+                {["Home", "About", "Projects", "Certifications", "Contact"].map((item, i) => (
                   <motion.a
                     key={item}
                     href={item === "Home" ? "#" : `#${item.toLowerCase()}`}
@@ -77,7 +77,7 @@ export default function MobileMenu() {
                 ))}
 
                 {mounted && (
-                  <motion.div className="pt-4 flex justify-center" custom={4} variants={linkVariants}>
+                  <motion.div className="pt-4 flex justify-center" custom={5} variants={linkVariants}>
                     <Button
                       variant="outline"
                       className="rounded-full px-6 flex items-center gap-2"
@@ -105,4 +105,3 @@ export default function MobileMenu() {
     </div>
   )
 }
-

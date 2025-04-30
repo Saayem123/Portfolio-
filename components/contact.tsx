@@ -99,7 +99,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-b from-white to-blue-50 dark:from-background dark:to-blue-950/10"
+      className="py-20 bg-gradient-to-b from-slate-100/50 to-transparent dark:from-slate-900/30 dark:to-transparent"
     >
       <div className="container px-4 md:px-6">
         <motion.div
@@ -356,4 +356,3 @@ export default function Contact() {
     </section>
   )
 }
-

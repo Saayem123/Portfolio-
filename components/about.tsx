@@ -48,7 +48,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 bg-gradient-to-b from-background to-blue-50 dark:from-background dark:to-blue-950/10"
+      className="py-20 bg-gradient-to-b from-transparent to-slate-100/50 dark:from-transparent dark:to-slate-900/30"
     >
       <div className="container px-4 md:px-6">
         <motion.div
@@ -185,4 +185,3 @@ export default function About() {
     </section>
   )
 }
-
