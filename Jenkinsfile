@@ -5,8 +5,8 @@ pipeline {
         stage('Git Checkout and Pull') {  // Stage to ensure the latest code is pulled from the repository
             steps {
                 // Checkout the correct branch or create it if it doesn't exist, then pull the latest changes
-                bat 'git checkout portfolio_project || git checkout -b portfolio_project origin/portfolio_project'
-                bat 'git pull origin portfolio_project'
+                bat 'git checkout feature1 || git checkout -b feature1 origin/feature1'
+                bat 'git pull origin feature1'
             } 
         }
 
